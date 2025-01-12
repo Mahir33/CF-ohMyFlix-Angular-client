@@ -11,7 +11,7 @@ import { map } from 'rxjs/operators';
 })
 export class UserRegistrationService {
 
-apiUrl = 'https://myflix-api-mahir-941afb3e93ba.herokuapp.com/';
+apiUrl = 'https://myflix-api-mahir-941afb3e93ba.herokuapp.com';
  
  constructor(private http: HttpClient) {
     this.http = http;
